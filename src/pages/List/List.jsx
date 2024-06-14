@@ -11,8 +11,9 @@ const List = () => {
   return (
     <>
     <header className={styles.header}>
-      <p>Список граждан</p>
+        <Link to={'/list'}><p>Список граждан</p></Link>
       <div className={styles.header_block}>
+        <Link to={'/posts'}><p>Посты</p></Link>
         <p>Администратор</p>
         <Link to={'/'}><p>Выход</p></Link>
       </div>
